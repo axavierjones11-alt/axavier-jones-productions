@@ -2,8 +2,10 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  background: url('me.jpg') no-repeat center center fixed;
+
+  background: url('me.png') no-repeat center center fixed;
   background-size: cover;
+
   position: relative;
 }
 
@@ -11,8 +13,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55);
-  pointer-events: none;
+  background: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
